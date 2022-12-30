@@ -1,0 +1,2920 @@
+{
+  "attr": [
+    {
+      "key": "label_num",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "core_type",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "attr_model_out_nodes_name",
+      "value": {
+        "list": {
+          "s": [
+            "PartitionedCall_/Resize_ResizeBilinearV2_2:0:output"
+          ],
+          "val_type": "VT_LIST_STRING"
+        }
+      }
+    },
+    {
+      "key": "needCheckCpu",
+      "value": {
+        "list": {
+          "val_type": "VT_LIST_STRING"
+        }
+      }
+    },
+    {
+      "key": "tasks",
+      "value": null
+    },
+    {
+      "key": "p2p_memory_size",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "host_memory_size",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "memory_size",
+      "value": {
+        "i": 129953792
+      }
+    },
+    {
+      "key": "task_gen_weight_addr",
+      "value": {
+        "i": 2277437440
+      }
+    },
+    {
+      "key": "event_num",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "task_gen_base_addr",
+      "value": {
+        "i": 2147483648
+      }
+    },
+    {
+      "key": "huge_stream_list",
+      "value": {
+        "list": {
+          "val_type": "VT_LIST_INT"
+        }
+      }
+    },
+    {
+      "key": "target_type",
+      "value": {
+        "s": "MINI"
+      }
+    },
+    {
+      "key": "task_index_op_name",
+      "value": {
+        "list": {
+          "s": [
+            "input_0_huawei_aipp",
+            "input_0_huawei_aipp",
+            "PartitionedCall_/Resize_ResizeBilinearV2_2",
+            "trans_TransData_0",
+            "trans_TransData_0",
+            "Node_Output"
+          ],
+          "val_type": "VT_LIST_STRING"
+        }
+      }
+    },
+    {
+      "key": "session_id",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "needCheckTf",
+      "value": {
+        "list": {
+          "val_type": "VT_LIST_STRING"
+        }
+      }
+    },
+    {
+      "key": "framework_type",
+      "value": {
+        "s": "Onnx"
+      }
+    },
+    {
+      "key": "task_gen_host_base_addr",
+      "value": {
+        "i": 68719476736
+      }
+    },
+    {
+      "key": "atc_cmdline",
+      "value": {
+        "s": "/usr/local/Ascend/ascend-toolkit/5.1.RC2/x86_64-linux/bin/atc.bin --mode=0 --model=./net3.onnx --framework=5 --input_format=NCHW --input_shape=input:1,3,1088,1920 --output=./model --output_type=FP32 --insert_op_conf=./dynamic_op.cfg --soc_version=Ascend310"
+      }
+    },
+    {
+      "key": "zero_copy_memory_size",
+      "value": {
+        "i": 31156736
+      }
+    },
+    {
+      "key": "variable_size",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "weight_size",
+      "value": {
+        "i": 512
+      }
+    },
+    {
+      "key": "om_info_list",
+      "value": {
+        "list": {
+          "i": [
+            512,
+            15967,
+            0,
+            1544
+          ],
+          "val_type": "VT_LIST_INT"
+        }
+      }
+    },
+    {
+      "key": "session_scope_memory_size",
+      "value": {
+        "i": 0
+      }
+    },
+    {
+      "key": "task_gen_variable_addr",
+      "value": {
+        "i": 34359738368
+      }
+    },
+    {
+      "key": "opp_version",
+      "value": {
+        "s": "1.82.22.2.220"
+      }
+    },
+    {
+      "key": "soc_version",
+      "value": {
+        "s": "Ascend310"
+      }
+    },
+    {
+      "key": "_enable_l1_fusion",
+      "value": {
+        "b": false
+      }
+    },
+    {
+      "key": "atc_version",
+      "value": {
+        "s": "1.82.22.2.220"
+      }
+    },
+    {
+      "key": "_fp_ceiling_mode",
+      "value": {
+        "s": "2"
+      }
+    },
+    {
+      "key": "stream_num",
+      "value": {
+        "i": 1
+      }
+    }
+  ],
+  "custom_version": "1.11.z.0",
+  "graph": [
+    {
+      "attr": [
+        {
+          "key": "refresh_int64_flag",
+          "value": {
+            "b": false
+          }
+        },
+        {
+          "key": "_process_node_engine_id",
+          "value": {
+            "s": "NPU"
+          }
+        },
+        {
+          "key": "_session_graph_id",
+          "value": {
+            "s": "-1_0"
+          }
+        },
+        {
+          "key": "_graph_has_been_added",
+          "value": {
+            "b": true
+          }
+        },
+        {
+          "key": "run_count",
+          "value": {
+            "i": 343
+          }
+        },
+        {
+          "key": "_dynamic_shape_partitioned",
+          "value": {
+            "b": false
+          }
+        },
+        {
+          "key": "_is_graph_inferred",
+          "value": {
+            "b": true
+          }
+        },
+        {
+          "key": "label_num",
+          "value": {
+            "i": 0
+          }
+        }
+      ],
+      "input": [
+        "input:0",
+        "ascend_dynamic_aipp_data:0"
+      ],
+      "name": "model_NPU_0",
+      "op": [
+        {
+          "attr": [
+            {
+              "key": "_ir_inputs_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "data_type",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_ir_attr_names",
+              "value": {
+                "list": {
+                  "s": [
+                    "index"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_dynamic_aipp_input_dims",
+              "value": {
+                "list": {
+                  "i": [
+                    1,
+                    -1,
+                    -1,
+                    -1
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "_aipp_outputs",
+              "value": {
+                "list": {
+                  "s": [
+                    "NC1HWC0:DT_FLOAT16:features:66846720:5:1,1,1088,1920,16"
+                  ],
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            },
+            {
+              "key": "_data_aipp_data_name_map",
+              "value": {
+                "s": "ascend_dynamic_aipp_data"
+              }
+            },
+            {
+              "key": "OwnerGraphIsUnknown",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "index",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_ge_attr_op_kernel_lib_name",
+              "value": {
+                "s": "DNN_VM_GE_LOCAL_OP_STORE"
+              }
+            },
+            {
+              "key": "_lxfusion_engine_name",
+              "value": {
+                "s": "DNN_VM_GE_LOCAL"
+              }
+            },
+            {
+              "key": "_data_related_aipp_mode",
+              "value": {
+                "s": "dynamic_aipp"
+              }
+            },
+            {
+              "key": "is_first_node",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "_input_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "x"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_input_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "aipp",
+              "value": {
+                "func": {
+                  "attr": [
+                    {
+                      "key": "related_input_rank",
+                      "value": {
+                        "i": 0
+                      }
+                    },
+                    {
+                      "key": "support_rotation",
+                      "value": {
+                        "b": false
+                      }
+                    },
+                    {
+                      "key": "aipp_mode",
+                      "value": {
+                        "i": 2
+                      }
+                    },
+                    {
+                      "key": "max_src_image_size",
+                      "value": {
+                        "i": 25165824
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_is_connected_to_netoutput",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "_lxfusion_op_kernel_lib_name",
+              "value": {
+                "s": "DNN_VM_GE_LOCAL_OP_STORE"
+              }
+            },
+            {
+              "key": "_output_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "y"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_op_no_tiling",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_output_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "OUTPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_ir_inputs_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "x"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_aipp_inputs",
+              "value": {
+                "list": {
+                  "s": [
+                    "NCHW:DT_FLOAT:input:25067520:4:1,3,1088,1920"
+                  ],
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            }
+          ],
+          "dst_index": [
+            0
+          ],
+          "dst_name": [
+            "input_0_huawei_aipp"
+          ],
+          "has_out_attr": true,
+          "input": [
+            ""
+          ],
+          "input_desc": [
+            {
+              "attr": [
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        25165824
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NHWC"
+                  }
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_UINT8"
+                  }
+                },
+                {
+                  "key": "origin_format_is_set",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "placement",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_UINT8",
+              "layout": "NHWC",
+              "shape": {
+                "dim": [
+                  1,
+                  25165824
+                ]
+              }
+            }
+          ],
+          "name": "input",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_UINT8"
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NHWC"
+                  }
+                },
+                {
+                  "key": "origin_format_is_set",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "_is_zero_copy_block",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "placement",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        25165824
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_UINT8",
+              "layout": "NHWC",
+              "real_dim_cnt": 4,
+              "shape": {
+                "dim": [
+                  1,
+                  25165824
+                ]
+              }
+            }
+          ],
+          "output_i": [
+            98797056
+          ],
+          "type": "Data"
+        },
+        {
+          "attr": [
+            {
+              "key": "_ge_attr_op_kernel_lib_name",
+              "value": {
+                "s": "DNN_VM_GE_LOCAL_OP_STORE"
+              }
+            },
+            {
+              "key": "_data_aipp_data_name_map",
+              "value": {
+                "s": "input"
+              }
+            },
+            {
+              "key": "_data_related_aipp_mode",
+              "value": {
+                "s": "dynamic_aipp_conf"
+              }
+            },
+            {
+              "key": "_op_no_tiling",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_output_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "out"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_input_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "data"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "OUTPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_engine_type",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "is_last_node",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "_output_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "aipp",
+              "value": {
+                "func": {
+                  "attr": [
+                    {
+                      "key": "related_input_rank",
+                      "value": {
+                        "i": 0
+                      }
+                    },
+                    {
+                      "key": "max_src_image_size",
+                      "value": {
+                        "i": 25165824
+                      }
+                    },
+                    {
+                      "key": "aipp_mode",
+                      "value": {
+                        "i": 2
+                      }
+                    },
+                    {
+                      "key": "support_rotation",
+                      "value": {
+                        "b": false
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_input_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_is_connected_to_netoutput",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "_lxfusion_op_kernel_lib_name",
+              "value": {
+                "s": "DNN_VM_GE_LOCAL_OP_STORE"
+              }
+            },
+            {
+              "key": "_lxfusion_engine_name",
+              "value": {
+                "s": "DNN_VM_GE_LOCAL"
+              }
+            },
+            {
+              "key": "OwnerGraphIsUnknown",
+              "value": {
+                "b": false
+              }
+            }
+          ],
+          "dst_index": [
+            1
+          ],
+          "dst_name": [
+            "input_0_huawei_aipp"
+          ],
+          "has_out_attr": true,
+          "id": 1,
+          "input": [
+            ""
+          ],
+          "input_desc": [
+            {
+              "attr": [
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "ND"
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        160
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_UINT8",
+              "layout": "ND",
+              "shape": {
+                "dim": [
+                  160
+                ]
+              }
+            }
+          ],
+          "name": "ascend_dynamic_aipp_data",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "origin_format_is_set",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "placement",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_UINT8"
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "ND"
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        160
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_UINT8",
+              "layout": "ND",
+              "real_dim_cnt": 1,
+              "shape": {
+                "dim": [
+                  160
+                ]
+              }
+            }
+          ],
+          "output_i": [
+            98796544
+          ],
+          "type": "AippData"
+        },
+        {
+          "attr": [
+            {
+              "key": "_input_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0,
+                    1
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_ge_attr_op_kernel_lib_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "aipp",
+              "value": {
+                "func": {
+                  "attr": [
+                    {
+                      "key": "related_input_rank",
+                      "value": {
+                        "i": 0
+                      }
+                    },
+                    {
+                      "key": "aipp_mode",
+                      "value": {
+                        "i": 2
+                      }
+                    },
+                    {
+                      "key": "support_rotation",
+                      "value": {
+                        "b": false
+                      }
+                    },
+                    {
+                      "key": "max_src_image_size",
+                      "value": {
+                        "i": 25165824
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_sgt_cube_vector_core_type",
+              "value": {
+                "s": "AiCore"
+              }
+            },
+            {
+              "key": "op_para_size",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_tbeKernelSize",
+              "value": {
+                "i": 4512
+              }
+            },
+            {
+              "key": "_graph_name",
+              "value": {
+                "s": "partition0_rank1_new_sub_graph2"
+              }
+            },
+            {
+              "key": "_output_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "features"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "current_aipp_index",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            },
+            {
+              "key": "_is_connected_to_data",
+              "value": {
+                "list": {
+                  "i": [
+                    0,
+                    1
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "OwnerGraphIsUnknown",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_input_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "images",
+                    "params"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_output_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_is_n_batch_split",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_lxfusion_engine_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "aipp_config_file_path",
+              "value": {
+                "s": "./dynamic_op.cfg"
+              }
+            },
+            {
+              "key": "is_first_node",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "input_0_huawei_aipp_kernelname",
+              "value": {
+                "s": "te_aipp_12539c8c25254d73c21750dfb695c7e5c94b6ca6ed52511436e2c335acd5a16f_1__kernel0"
+              }
+            },
+            {
+              "key": "tvm_magic",
+              "value": {
+                "s": "RT_DEV_BINARY_MAGIC_ELF"
+              }
+            },
+            {
+              "key": "tvm_blockdim",
+              "value": {
+                "i": 1
+              }
+            },
+            {
+              "key": "_engine_type",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "_op_read_write_index",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_session_graph_id",
+              "value": {
+                "s": "-1_0"
+              }
+            },
+            {
+              "key": "_is_op_dynamic_impl",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "OUTPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_mode_in_args_first_field",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "fusion_scope",
+              "value": {
+                "i": -1
+              }
+            },
+            {
+              "key": "is_input_const",
+              "value": {
+                "list": {
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "aipp_config_path",
+              "value": {
+                "s": "{\\\"aipp_mode\\\":\\\"dynamic\\\"}"
+              }
+            },
+            {
+              "key": "_fe_imply_type",
+              "value": {
+                "i": 6
+              }
+            },
+            {
+              "key": "has_infered_verified",
+              "value": {
+                "i": 1
+              }
+            },
+            {
+              "key": "_tbe_kernel_name_for_load",
+              "value": {
+                "s": "te_aipp_12539c8c25254d73c21750dfb695c7e5c94b6ca6ed52511436e2c335acd5a16f_1__kernel0"
+              }
+            },
+            {
+              "key": "ub_atomic_params",
+              "value": {
+                "list": {
+                  "i": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "tbe_op_atomic_workspace_flag",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_lxfusion_op_kernel_lib_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "core_type_value",
+              "value": {
+                "s": ""
+              }
+            },
+            {
+              "key": "_op_slice_info",
+              "value": {
+                "s": "{\\\"_op_slice_info\\\": {\\\"splitMaps\\\": [], \\\"reduceMaps\\\": [], \\\"l1FusionEnable\\\": 0, \\\"minTbeL1Space\\\": 0}}"
+              }
+            },
+            {
+              "key": "continuous_output",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_opt_input",
+              "value": {
+                "list": {
+                  "s": [
+                    "params"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "input_0_huawei_aipp_pattern",
+              "value": {
+                "s": "Opaque"
+              }
+            },
+            {
+              "key": "aipp_images_tensor_bak",
+              "value": {
+                "t": {
+                  "desc": {
+                    "attr": [
+                      {
+                        "key": "origin_format",
+                        "value": {
+                          "s": "NCHW"
+                        }
+                      },
+                      {
+                        "key": "origin_format_is_set",
+                        "value": {
+                          "b": true
+                        }
+                      },
+                      {
+                        "key": "placement",
+                        "value": {
+                          "i": 0
+                        }
+                      },
+                      {
+                        "key": "origin_shape_initialized",
+                        "value": {
+                          "b": true
+                        }
+                      },
+                      {
+                        "key": "shape_range",
+                        "value": null
+                      },
+                      {
+                        "key": "origin_shape",
+                        "value": {
+                          "list": {
+                            "i": [
+                              1,
+                              3,
+                              1088,
+                              1920
+                            ],
+                            "val_type": "VT_LIST_INT"
+                          }
+                        }
+                      }
+                    ],
+                    "device_type": "NPU",
+                    "dtype": "DT_FLOAT",
+                    "layout": "NCHW",
+                    "real_dim_cnt": 4,
+                    "shape": {
+                      "dim": [
+                        1,
+                        3,
+                        1088,
+                        1920
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "key": "imply_type",
+              "value": {
+                "i": 1
+              }
+            },
+            {
+              "key": "_is_custom_op",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "INPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false,
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_op_no_tiling",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "continuous_input",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "LxFusionOptimized",
+              "value": {
+                "b": true
+              }
+            }
+          ],
+          "dst_index": [
+            0
+          ],
+          "dst_name": [
+            "PartitionedCall_/Resize_ResizeBilinearV2_2"
+          ],
+          "has_out_attr": true,
+          "id": 2,
+          "input": [
+            "input:0",
+            "ascend_dynamic_aipp_data:0"
+          ],
+          "input_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_data_visit_distance",
+                  "value": {
+                    "list": {
+                      "i": [
+                        0,
+                        -1
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "placement",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NHWC"
+                  }
+                },
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_UINT8"
+                  }
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "input_origin_size",
+                  "value": {
+                    "i": 25165824
+                  }
+                },
+                {
+                  "key": "origin_format_is_set",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        25165824
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_UINT8",
+              "input_tensor": true,
+              "layout": "NHWC",
+              "real_dim_cnt": 4,
+              "shape": {
+                "dim": [
+                  1,
+                  25165824
+                ]
+              }
+            },
+            {
+              "attr": [
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "ND"
+                  }
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_UINT8"
+                  }
+                },
+                {
+                  "key": "_data_visit_distance",
+                  "value": {
+                    "list": {
+                      "i": [
+                        0,
+                        -1
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        160
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_UINT8",
+              "input_tensor": true,
+              "layout": "ND",
+              "real_dim_cnt": 1,
+              "shape": {
+                "dim": [
+                  160
+                ]
+              }
+            }
+          ],
+          "input_i": [
+            98797056,
+            98796544
+          ],
+          "input_name": [
+            "new_sub_graph2_PlaceHolder0",
+            "new_sub_graph2_PlaceHolder1"
+          ],
+          "name": "input_0_huawei_aipp",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        3,
+                        1088,
+                        1920
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "_reshape_type_mask",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "placement",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_infer_reshape_type",
+                  "value": {
+                    "s": ""
+                  }
+                },
+                {
+                  "key": "origin_format_is_set",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_FLOAT16",
+              "layout": "NC1HWC0",
+              "real_dim_cnt": 4,
+              "shape": {
+                "dim": [
+                  1,
+                  1,
+                  1088,
+                  1920,
+                  16
+                ]
+              }
+            }
+          ],
+          "output_i": [
+            0
+          ],
+          "src_index": [
+            0,
+            0
+          ],
+          "src_name": [
+            "input",
+            "ascend_dynamic_aipp_data"
+          ],
+          "type": "Aipp"
+        },
+        {
+          "attr": [
+            {
+              "key": "_sgt_cube_vector_core_type",
+              "value": {
+                "s": "AiCore"
+              }
+            },
+            {
+              "key": "OwnerGraphIsUnknown",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "op_para_size",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "tvm_magic",
+              "value": {
+                "s": "RT_DEV_BINARY_MAGIC_ELF"
+              }
+            },
+            {
+              "key": "_is_n_batch_split",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_is_op_dynamic_impl",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_ir_attr_names",
+              "value": {
+                "list": {
+                  "s": [
+                    "align_corners",
+                    "half_pixel_centers",
+                    "size"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "fusion_scope",
+              "value": {
+                "i": -2
+              }
+            },
+            {
+              "key": "_op_no_tiling",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_engine_type",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "PartitionedCall_/Resize_ResizeBilinearV2_2_kernelname",
+              "value": {
+                "s": "te_resizebilinearv2d_1232ecb7b18ceeebe961b8676bc50b1c22641b736e45870778bdceb0c7aa78f2_1__kernel0"
+              }
+            },
+            {
+              "key": "_is_custom_op",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "INPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_input_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "x"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_output_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "y"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "core_type_value",
+              "value": {
+                "s": ""
+              }
+            },
+            {
+              "key": "_ir_inputs_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_fe_imply_type",
+              "value": {
+                "i": 6
+              }
+            },
+            {
+              "key": "_session_graph_id",
+              "value": {
+                "s": "-1_0"
+              }
+            },
+            {
+              "key": "_ge_attr_op_kernel_lib_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "_tbe_kernel_name_for_load",
+              "value": {
+                "s": "te_resizebilinearv2d_1232ecb7b18ceeebe961b8676bc50b1c22641b736e45870778bdceb0c7aa78f2_1__kernel0"
+              }
+            },
+            {
+              "key": "OUTPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "tbe_op_atomic_workspace_flag",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "align_corners",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "LxFusionOptimized",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "_op_infer_depends",
+              "value": {
+                "list": {
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            },
+            {
+              "key": "_op_slice_info",
+              "value": {
+                "s": "{\\\"_op_slice_info\\\":{\\\"l1FusionEnable\\\":0,\\\"minTbeL1Space\\\":0,\\\"reduceMaps\\\":[],\\\"splitMaps\\\":[]}}"
+              }
+            },
+            {
+              "key": "_lxfusion_engine_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "_mode_in_args_first_field",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "dtype",
+              "value": {
+                "dt": 0
+              }
+            },
+            {
+              "key": "continuous_input",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "ub_atomic_params",
+              "value": {
+                "list": {
+                  "i": [
+                    0,
+                    0
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "half_pixel_centers",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "imply_type",
+              "value": {
+                "i": 1
+              }
+            },
+            {
+              "key": "is_input_const",
+              "value": {
+                "list": {
+                  "b": [
+                    false,
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_graph_name",
+              "value": {
+                "s": "partition0_rank1_new_sub_graph2"
+              }
+            },
+            {
+              "key": "size",
+              "value": {
+                "list": {
+                  "i": [
+                    520,
+                    960
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "tvm_blockdim",
+              "value": {
+                "i": 2
+              }
+            },
+            {
+              "key": "continuous_output",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_ir_inputs_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "x"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_op_read_write_index",
+              "value": {
+                "i": 1
+              }
+            },
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "s": [
+                    "dynamic_const_156221_5",
+                    "/Resize"
+                  ],
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            },
+            {
+              "key": "_tbeKernelSize",
+              "value": {
+                "i": 8272
+              }
+            },
+            {
+              "key": "_input_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_lxfusion_op_kernel_lib_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "_output_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "PartitionedCall_/Resize_ResizeBilinearV2_2_pattern",
+              "value": {
+                "s": "Opaque"
+              }
+            }
+          ],
+          "dst_index": [
+            0
+          ],
+          "dst_name": [
+            "trans_TransData_0"
+          ],
+          "has_out_attr": true,
+          "id": 3,
+          "input": [
+            "input_0_huawei_aipp:0"
+          ],
+          "input_desc": [
+            {
+              "attr": [
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        3,
+                        1088,
+                        1920
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "_data_visit_distance",
+                  "value": {
+                    "list": {
+                      "i": [
+                        0,
+                        -1
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "_reshape_type_mask",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_infer_reshape_type",
+                  "value": {
+                    "s": ""
+                  }
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "is_end_of_inputmem_lifecycle",
+                  "value": {
+                    "b": true
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_FLOAT16",
+              "layout": "NC1HWC0",
+              "real_dim_cnt": 4,
+              "shape": {
+                "dim": [
+                  1,
+                  1,
+                  1088,
+                  1920,
+                  16
+                ]
+              }
+            }
+          ],
+          "input_i": [
+            0
+          ],
+          "input_name": [
+            "input_0_huawei_aipp"
+          ],
+          "is_input_const": [
+            false,
+            false
+          ],
+          "name": "PartitionedCall_/Resize_ResizeBilinearV2_2",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "_origin_output_tensor_name",
+                  "value": {
+                    "s": "output"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/Resize"
+                  }
+                },
+                {
+                  "key": "_reshape_type_mask",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "_infer_reshape_type",
+                  "value": {
+                    "s": ""
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        3,
+                        520,
+                        960
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_FLOAT",
+              "layout": "NC1HWC0",
+              "real_dim_cnt": 4,
+              "shape": {
+                "dim": [
+                  1,
+                  1,
+                  520,
+                  960,
+                  16
+                ]
+              }
+            }
+          ],
+          "output_i": [
+            66847232
+          ],
+          "src_index": [
+            0
+          ],
+          "src_name": [
+            "input_0_huawei_aipp"
+          ],
+          "type": "ResizeBilinearV2D"
+        },
+        {
+          "attr": [
+            {
+              "key": "ub_atomic_params",
+              "value": {
+                "list": {
+                  "i": [
+                    0,
+                    0
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "_sgt_cube_vector_core_type",
+              "value": {
+                "s": "AiCore"
+              }
+            },
+            {
+              "key": "input_format",
+              "value": {
+                "i": 3
+              }
+            },
+            {
+              "key": "op_para_size",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "continuous_output",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_op_slice_info",
+              "value": {
+                "s": "{\\\"_op_slice_info\\\":{\\\"l1FusionEnable\\\":0,\\\"minTbeL1Space\\\":0,\\\"reduceMaps\\\":[],\\\"splitMaps\\\":[{\\\"inputList\\\":[{\\\"axis\\\":[0],\\\"headOverLap\\\":[],\\\"idx\\\":0,\\\"tailOverLap\\\":[]}],\\\"outputList\\\":[{\\\"axis\\\":[0],\\\"idx\\\":0}]}]}}"
+              }
+            },
+            {
+              "key": "_lxfusion_op_kernel_lib_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "core_type_value",
+              "value": {
+                "s": ""
+              }
+            },
+            {
+              "key": "tvm_magic",
+              "value": {
+                "s": "RT_DEV_BINARY_MAGIC_ELF"
+              }
+            },
+            {
+              "key": "LxFusionOptimized",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "_lxfusion_engine_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "_op_no_tiling",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            },
+            {
+              "key": "dst_format",
+              "value": {
+                "s": "NCHW"
+              }
+            },
+            {
+              "key": "_session_graph_id",
+              "value": {
+                "s": "-1_0"
+              }
+            },
+            {
+              "key": "_tbeKernelSize",
+              "value": {
+                "i": 2880
+              }
+            },
+            {
+              "key": "output_format",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_input_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_is_come_from_const_op",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "INPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_engine_type",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "OwnerGraphIsUnknown",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "trans_TransData_0_kernelname",
+              "value": {
+                "s": "te_transdata_f0fc6ba52e8966d17db30f7f1473f503545ce3c4a6718b6e3f0636eaa5885e67_1__kernel0"
+              }
+            },
+            {
+              "key": "is_last_node",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "_tbe_kernel_name_for_load",
+              "value": {
+                "s": "te_transdata_f0fc6ba52e8966d17db30f7f1473f503545ce3c4a6718b6e3f0636eaa5885e67_1__kernel0"
+              }
+            },
+            {
+              "key": "trans_TransData_0_pattern",
+              "value": {
+                "s": "Opaque"
+              }
+            },
+            {
+              "key": "is_input_const",
+              "value": {
+                "list": {
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_is_connected_to_netoutput",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "imply_type",
+              "value": {
+                "i": 1
+              }
+            },
+            {
+              "key": "_is_custom_op",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_op_read_write_index",
+              "value": {
+                "i": 2
+              }
+            },
+            {
+              "key": "_output_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "dst"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_ge_attr_op_kernel_lib_name",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "src_format",
+              "value": {
+                "s": "NC1HWC0"
+              }
+            },
+            {
+              "key": "isCheckSupported",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_output_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "tvm_blockdim",
+              "value": {
+                "i": 2
+              }
+            },
+            {
+              "key": "_graph_name",
+              "value": {
+                "s": "partition0_rank1_new_sub_graph2"
+              }
+            },
+            {
+              "key": "fusion_scope",
+              "value": {
+                "i": -3
+              }
+            },
+            {
+              "key": "_is_op_dynamic_impl",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_mode_in_args_first_field",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_is_n_batch_split",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "_fe_imply_type",
+              "value": {
+                "i": 6
+              }
+            },
+            {
+              "key": "OUTPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_input_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "src"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "continuous_input",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "tbe_op_atomic_workspace_flag",
+              "value": {
+                "i": 0
+              }
+            }
+          ],
+          "dst_index": [
+            0
+          ],
+          "dst_name": [
+            "Node_Output"
+          ],
+          "has_out_attr": true,
+          "id": 4,
+          "input": [
+            "PartitionedCall_/Resize_ResizeBilinearV2_2:0"
+          ],
+          "input_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_data_visit_distance",
+                  "value": {
+                    "list": {
+                      "i": [
+                        0,
+                        -1
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "is_end_of_inputmem_lifecycle",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        3,
+                        520,
+                        960
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_FLOAT",
+              "layout": "NC1HWC0",
+              "real_dim_cnt": 5,
+              "shape": {
+                "dim": [
+                  1,
+                  1,
+                  520,
+                  960,
+                  16
+                ]
+              }
+            }
+          ],
+          "input_i": [
+            66847232
+          ],
+          "input_name": [
+            "PartitionedCall_/Resize_ResizeBilinearV2_2"
+          ],
+          "name": "trans_TransData_0",
+          "output_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_datadump_origin_output_index",
+                  "value": {
+                    "i": 0
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        3,
+                        520,
+                        960
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "_is_zero_copy_block",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "_datadump_origin_name",
+                  "value": {
+                    "s": "/Resize"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                },
+                {
+                  "key": "_datadump_origin_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_FLOAT",
+              "layout": "NCHW",
+              "real_dim_cnt": 4,
+              "shape": {
+                "dim": [
+                  1,
+                  3,
+                  520,
+                  960
+                ]
+              }
+            }
+          ],
+          "output_i": [
+            123962880
+          ],
+          "src_index": [
+            0
+          ],
+          "src_name": [
+            "PartitionedCall_/Resize_ResizeBilinearV2_2"
+          ],
+          "type": "TransData"
+        },
+        {
+          "attr": [
+            {
+              "key": "_datadump_original_op_names",
+              "value": {
+                "list": {
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            },
+            {
+              "key": "is_last_node",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "_engine_type",
+              "value": {
+                "s": "AIcoreEngine"
+              }
+            },
+            {
+              "key": "_lxfusion_op_kernel_lib_name",
+              "value": {
+                "s": "DNN_VM_RTS_OP_STORE"
+              }
+            },
+            {
+              "key": "_op_no_tiling",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "true_branch_stream",
+              "value": {
+                "i": 0
+              }
+            },
+            {
+              "key": "_ge_attr_op_kernel_lib_name",
+              "value": {
+                "s": "DNN_VM_RTS_OP_STORE"
+              }
+            },
+            {
+              "key": "_is_connected_to_data",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ],
+                  "val_type": "VT_LIST_INT"
+                }
+              }
+            },
+            {
+              "key": "_input_name_value",
+              "value": {
+                "list": {
+                  "i": [
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "key": "OwnerGraphIsUnknown",
+              "value": {
+                "b": false
+              }
+            },
+            {
+              "key": "is_first_node",
+              "value": {
+                "b": true
+              }
+            },
+            {
+              "key": "_lxfusion_engine_name",
+              "value": {
+                "s": "DNN_VM_RTS"
+              }
+            },
+            {
+              "key": "_input_name_key",
+              "value": {
+                "list": {
+                  "s": [
+                    "__input0"
+                  ]
+                }
+              }
+            },
+            {
+              "key": "_user_defined_data_type",
+              "value": {
+                "list": {
+                  "s": [
+                    "0:DT_FLOAT"
+                  ],
+                  "val_type": "VT_LIST_STRING"
+                }
+              }
+            },
+            {
+              "key": "is_input_const",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "INPUT_IS_VAR",
+              "value": {
+                "list": {
+                  "b": [
+                    false
+                  ],
+                  "val_type": "VT_LIST_BOOL"
+                }
+              }
+            },
+            {
+              "key": "_op_read_write_index",
+              "value": {
+                "i": 3
+              }
+            }
+          ],
+          "has_out_attr": true,
+          "id": 5,
+          "input": [
+            "trans_TransData_0:0"
+          ],
+          "input_desc": [
+            {
+              "attr": [
+                {
+                  "key": "_origin_output_tensor_name",
+                  "value": {
+                    "s": "output"
+                  }
+                },
+                {
+                  "key": "origin_shape",
+                  "value": {
+                    "list": {
+                      "i": [
+                        1,
+                        3,
+                        520,
+                        960
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "origin_data_type",
+                  "value": {
+                    "s": "DT_FLOAT"
+                  }
+                },
+                {
+                  "key": "origin_shape_range",
+                  "value": null
+                },
+                {
+                  "key": "_data_visit_distance",
+                  "value": {
+                    "list": {
+                      "i": [
+                        0,
+                        -1
+                      ],
+                      "val_type": "VT_LIST_INT"
+                    }
+                  }
+                },
+                {
+                  "key": "shape_range",
+                  "value": null
+                },
+                {
+                  "key": "origin_shape_initialized",
+                  "value": {
+                    "b": true
+                  }
+                },
+                {
+                  "key": "origin_format",
+                  "value": {
+                    "s": "NCHW"
+                  }
+                }
+              ],
+              "device_type": "NPU",
+              "dtype": "DT_FLOAT",
+              "layout": "NCHW",
+              "real_dim_cnt": 4,
+              "shape": {
+                "dim": [
+                  1,
+                  3,
+                  520,
+                  960
+                ]
+              }
+            }
+          ],
+          "input_i": [
+            123962880
+          ],
+          "input_name": [
+            "new_sub_graph3_PlaceHolder2"
+          ],
+          "is_input_const": [
+            false
+          ],
+          "name": "Node_Output",
+          "src_index": [
+            0
+          ],
+          "src_name": [
+            "trans_TransData_0"
+          ],
+          "type": "NetOutput"
+        }
+      ]
+    }
+  ],
+  "name": "model",
+  "version": 2
+}
